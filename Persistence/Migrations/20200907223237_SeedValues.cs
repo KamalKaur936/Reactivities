@@ -7,9 +7,9 @@ namespace Persistence.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.InsertData(
-                table: "Values",
-                columns: new[] { "Id", "Name" },
-                values: new object[] { 1, "Value101" });
+                 table: "Values",
+                 columns: new[] { "Id", "Name" },
+                 values: new object[] { 1, "Value101" });
 
             migrationBuilder.InsertData(
                 table: "Values",
